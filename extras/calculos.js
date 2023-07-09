@@ -13,9 +13,9 @@ function calcular() {
     else {
     if (Mujer <= 17){
         document.getElementById('retextearTitulo').innerHTML='<h1>ROBACUNAS!!! ROBACUNAS!!!</h1>'
-        document.getElementById('retextearMensaje').innerHTML= '<img src="./extras/policia.jpg" class="img-fluid">'
+        document.getElementById('retextearMensaje').innerHTML= '<img src="./extras/Policia.jpg" class="img-fluid">'
         document.getElementById('musica').innerHTML='<audio controls autoplay> \
-                                                    <source src="./extras/policia.mp3" type="audio/mpeg"> \
+                                                    <source src="./extras/Policia.mp3" type="audio/mpeg"> \
                                                     </audio>'
         return console.log("ROBACUNAS")
 
@@ -24,9 +24,9 @@ function calcular() {
     let edadTeorica = (Hombre/2)+7
     if (Mujer <= edadTeorica){
         document.getElementById('retextearTitulo').innerHTML='<h1>ROBACUNAS!!! ROBACUNAS!!!</h1>'
-        document.getElementById('retextearMensaje').innerHTML= '<img src="./extras/policia.jpg" class="img-fluid">'
+        document.getElementById('retextearMensaje').innerHTML= '<img src="./extras/Policia.jpg" class="img-fluid">'
         document.getElementById('musica').innerHTML='<audio controls autoplay> \
-                                                    <source src="./extras/policia.mp3" type="audio/mpeg"> \
+                                                    <source src="./extras/Policia.mp3" type="audio/mpeg"> \
                                                     </audio>'
         return console.log("ROBACUNAS")
     }
