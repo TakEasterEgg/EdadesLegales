@@ -3,10 +3,11 @@ function calcular() {
     document.getElementById('retextearMensaje').innerHTML= ''
     document.getElementById('musica').innerHTML=''
     let verificar = document.getElementById("EdadElla").value
+    let verificar2 = document.getElementById("EdadEl").value
     let Mujer = parseInt(document.getElementById("EdadElla").value)
     let Hombre = parseInt(document.getElementById("EdadEl").value)
 
-    if (!verificar){
+    if (!verificar || !verificar2){
         document.getElementById('retextearTitulo').innerHTML='<h1>completa los datos geni@</h1>'
         return ""
     }
